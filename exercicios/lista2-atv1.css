@@ -1,0 +1,12 @@
+p{
+    text-align: center;
+    color: blue;
+    font-size: 11px;
+}
+
+div{
+    border: solid black 1px;
+    height: 100px;
+    width: 650px;
+    margin-left: 28%;   
+}
