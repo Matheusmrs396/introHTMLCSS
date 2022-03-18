@@ -1,7 +1,8 @@
 p{
     text-align: center;
-    color: blue;
+    color: rgb(3, 3, 160);
     font-size: 11px;
+    line-height: 2.0;
 }
 
 div{
