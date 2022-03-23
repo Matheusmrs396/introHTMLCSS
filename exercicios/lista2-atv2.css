@@ -1,0 +1,29 @@
+div{
+    width: 600px;
+}
+.position{
+    width: 5%;
+}
+td{
+    text-align: left;
+    
+}
+th{
+    background-color: #78b200;
+    padding: 10px;
+    color: white;
+}
+table{
+    border-spacing: 0;
+    font-family: Arial;
+    font-size: 12px;
+}
+tr:nth-child(odd){
+    background-color: #a7a7a7;
+}
+.pop{
+    width: 15%;
+}
+.city{
+    color:#0D5188;
+}
