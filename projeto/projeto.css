@@ -6,6 +6,12 @@ nav{
     border: solid black 1px;
     grid-area: nav;
     background-color: blue;
+  
+}
+li{
+    text-align: center;
+    list-style-type:none;
+    line-height: 3;
 }
 body{
     margin: 0;
