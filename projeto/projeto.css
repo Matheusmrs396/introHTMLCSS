@@ -1,11 +1,16 @@
 .border{
-    border: solid black 1px;
+    border: solid rgb(1, 82, 1) 1px;
 }
 nav{
-    height: 80vh;
-    border: solid black 1px;
+    height: 80vh;   
     grid-area: nav;
-    background-color: blue;
+    border-right: solid rgb(1, 82, 1) 1px;
+  
+}
+nav li{
+    text-align: center;
+    list-style-type:none;
+    line-height: 3;
 }
 body{
     margin: 0;
@@ -21,25 +26,27 @@ body{
     justify-content: space-between;
     grid-area: div;
     height: 80%;
-    background-color: antiquewhite;
+    background-color: rgb(226, 243, 253);
 }
 .item{
     width: 10%;
     flex-basis: 20%;
     margin: 1%;
-    flex-grow: 1;
-    background-color: aquamarine;   
+    flex-grow: 1; 
+    border: solid blue 1px;  
 }
 footer{
     height: 10vh;
     grid-area: footer;
-    background-color: brown;
+}
+footer p{
+    margin: 1%;
 }
 header{
     grid-area: header;
-    background-color: rgb(228, 224, 224);
     height: 10vh;
-    
+    display: flex;
+    align-items: center;   
 }
 .acima{
     grid-area: div;
@@ -47,3 +54,45 @@ header{
     margin: 1%;
 
 }
+.menuPrincipal{
+    flex-basis: 30%;      
+}
+.menuPrincipal li{
+    display: inline;
+    margin: 2%;   
+    justify-content: space-between;
+}
+.usuarioSair{
+    flex-basis: 15%;   
+}
+.usuarioSair li{
+    display: inline;
+    margin: 5%;   
+    justify-content: space-between;
+}
+.usuarioSair ul{
+    float: inline-end;
+}
+.menu{
+    width: 80%;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    display: flex;
+}
+.menu ul{
+    display: flex;
+    margin: 2%;
+    font-size: 100%;
+}
+.logo{
+    width: 20%;
+ }
+img{
+    display: block;
+    width: 70%;
+    height: 80%;
+    margin: 1%;
+}
+
+
+
