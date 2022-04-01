@@ -1,4 +1,4 @@
-import {calculaDelta, calculaBhaskara} from './js/funcoes.js';
+import {calculaDelta, calculaBhaskara} from './funcoes.js';
 
 function chamaFuncao(){
     let a = document.getElementById('a').value;
@@ -12,6 +12,10 @@ function chamaFuncao(){
     document.getElementById("x").value = bhaskara.x;
     document.getElementById("x2").value = bhaskara.x2;
 
+}
+
+window.onload = function() {
+    document.getElementById("delta").style.display ="none";
 }
 
 document.getElementById("btn").addEventListener('click', chamaFuncao);

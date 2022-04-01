@@ -5,18 +5,50 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <input type="text" id="a" placeholder="Informe o A">
-    <input type="text" id="b" placeholder="Informe o B">
-    <input type="text" id="c" placeholder="Informe o C">
-    <button id="btn"> calcula</button>
-    <label class="result">Delta</label>
-    <input type="text" id="delta">
-    <label class="result">X1</label>
-    <input type="text" id="x">
-    <label class="result">X2</label>
-    <input type="text" id="x2">
-    <script type="module" src="index.js"></script>
+    <div class="page">
+        <label class="field field_v1">
+          <input id="a" class="field__input" placeholder="Digite o valor de A">
+          <span class="field__label-wrap">
+            <span class="field__label"> Informe o A</span>
+          </span>
+        </label>
+        <label class="field field_v2">
+          <input id="b"  class="field__input" placeholder="Digite o valor de B">
+          <span class="field__label-wrap">
+            <span class="field__label">Informe o valor de B</span>
+          </span>
+        </label>    
+        <label class="field field_v3">
+          <input id="c" class="field__input" placeholder="Digite o valor de C">
+          <span class="field__label-wrap">
+            <span class="field__label">Informe o valor de C</span>
+          </span>
+        </label>
+        <input type = "submit" id="btn" class="teste" value = "Submit">
+        <label class="field field_v1">
+            <input id="delta" class="field__input" placeholder="Digite o valor de A">
+            <span class="field__label-wrap">
+              <span class="field__label"> Valor de Delta</span>
+            </span>
+          </label>
+          <label class="field field_v1">
+            <input id="x" class="field__input" placeholder="Digite o valor de A">
+            <span class="field__label-wrap">
+              <span class="field__label"> Valor de X1 </span>
+            </span>
+          </label>
+          <label class="field field_v1">
+            <input id="x2" class="field__input" placeholder="Digite o valor de A">
+            <span class="field__label-wrap">
+              <span class="field__label"> Valor de X2</span>
+            </span>
+          </label>
+      </div>
+    <script type="module" src="../js/index.js"></script>
+
 </body>
 </html>
+
