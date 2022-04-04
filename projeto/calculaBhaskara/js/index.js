@@ -11,11 +11,11 @@ function chamaFuncao(){
     document.getElementById("delta").value = delta;
     document.getElementById("x").value = bhaskara.x;
     document.getElementById("x2").value = bhaskara.x2;
-
+    document.getElementById("result").style.display ="block";
 }
 
 window.onload = function() {
-    document.getElementById("delta").style.display ="none";
+        document.getElementById("result").style.display ="none";
 }
 
 document.getElementById("btn").addEventListener('click', chamaFuncao);
