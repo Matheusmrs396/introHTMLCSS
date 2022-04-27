@@ -5,7 +5,13 @@ function calculaDelta(a,b,c){
 }
 
 function calculaBhaskara(a,b,delta){
-    let x = (-b + Math.sqrt(delta))/ (2*a);
-    let x2 = (-b - Math.sqrt(delta))/ (2*a);
-    return {x,x2};
+    if(delta==0){
+        let x = (-b / (2*a));
+        return {x};
+    }else{
+        let x = (-b + Math.sqrt(delta))/ (2*a);
+        let x2 = (-b - Math.sqrt(delta))/ (2*a);
+        return {x,x2};
+    }
+
 }

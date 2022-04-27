@@ -7,11 +7,12 @@
     <title>Document</title>
     <link rel="stylesheet" href="style.css"> 
 </head>
-<header>
-  <h1>Calculadora de Bhaskara</h1>
-</header>
+
 <body>
     <div class="page">
+        <header>
+          <h1>Calculadora de Bhaskara</h1>
+        </header>
         <label class="field field_v1">
           <input id="a" class="field__input" placeholder="Digite o valor de A">
           <span class="field__label-wrap">
@@ -46,11 +47,14 @@
             </label>
             <label class="field field_v1">
               <input id="x2" class="field__input" disabled="">
-              <span class="field__label-wrap">
+              <span id = "spanX2" class="field__label-wrap">
                 <span class="field__label"> Valor de X2</span>
               </span>
             </label>
-        </div>    
+        </div> 
+        <div id="semRaiz">
+          <h2>Essa equação não possui raízes</h2>
+        </div>   
       </div>
     <script type="module" src="../js/index.js"></script>
 
